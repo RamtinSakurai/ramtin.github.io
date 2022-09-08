@@ -1,0 +1,101 @@
+body {
+    background-color: silver;
+    margin:0%;
+}
+header{
+    background-color: rgb(250,250,250);
+}
+
+.Mainimg{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    
+}
+
+img.Mainimg{
+    width: 50%;
+   height: auto;
+  
+}
+.Onetime{
+    color: rgb(197, 91, 82);
+    font-family: "Kokoro";
+    position:relative;
+    top: -200px;
+}
+h1.Name{
+    font-size: 40px;
+    margin-left: 15%;
+    margin-top:0px;
+    margin-bottom: 0px;
+    padding-top: 2%;
+    font-family: 'Dancing Script', cursive;
+    text-decoration:underline overline;
+}
+
+
+h1.Menu{
+    margin:10px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+h2.MenuName{
+    margin: 0px;
+    text-align: center;
+}
+
+.Allmenu{
+    width: 100%;
+    margin:0px;
+    text-align: center;
+}
+
+.Menu1{
+    
+    
+    margin: 5px;
+    display: inline-block;
+}
+
+.Menu2{
+    
+    display: inline-block;
+    margin: 5px;
+    
+}
+.Menu3{
+    
+    display: inline-block;
+    margin: 5px;
+}
+
+.Menu4{
+   
+    display: inline-block;
+    margin: 5px;
+}
+
+nav ul{
+    display: table;
+    margin:  auto;
+    padding: 0 ;
+    width: 80%;
+    text-align: center;
+    }
+    nav li{
+    display: table-cell;
+    min-width: 50px;
+    }
+    nav a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #555;
+    padding-bottom: 5px;
+    }
+    
+    nav li:hover{
+    color: #E7DA66;
+    border-bottom: 3px solid #F0E475;
+    }
